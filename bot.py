@@ -5,9 +5,11 @@ from discord.ext import commands, tasks
 from news import pobierz_najnowszy_news
 from embeds import stworz_embed
 
-TOKEN = "import os
+import os
+import discord
+from discord.ext import commands
 
-TOKEN = os.getenv("TOKEN")"
+TOKEN = os.getenv("TOKEN")
 
 NEWS_DBD_ID = 966810002788597780
 
